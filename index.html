@@ -27,14 +27,14 @@
 		</tr>
 		<tr>
 			<td>Monday</td>
-			<td><a href="https://meet.google.com/fza-jkpb-xjj"target="_blank">CD</a></td>
-			<td><a href="https://meet.google.com/dup-smkq-wea"target="_blank">Project</a></td>
+			<td><a href="https://zoom.us/j/2904303765?pwd=YzBCcmhrYjVKcVRCbWVNd1VYaFkwQT09"target="_blank">CD</a></td>
+			<td><a href="https://us02web.zoom.us/j/81850666277?pwd=a21WRExEeGFYQitBTXBnZk5LTFNpUT09"target="_blank">Project</a></td>
 			<td>B</td>
-			<td><a href="https://meet.google.com/dup-smkq-wea"target="_blank">Project</a></td>
-			<td><a href="https://meet.google.com/dup-smkq-wea"target="_blank">Project</a></td>
+			<td><a href="https://us02web.zoom.us/j/81850666277?pwd=a21WRExEeGFYQitBTXBnZk5LTFNpUT09"target="_blank">Project</a></td>
+			<td><a href="https://us02web.zoom.us/j/81850666277?pwd=a21WRExEeGFYQitBTXBnZk5LTFNpUT09"target="_blank">Project</a></td>
 			<td>L</td>
-			<td><a href="https://meet.google.com/fza-jkpb-xjj"target="_blank">CD</a></td>
-			<td><a href="https://meet.google.com/fza-jkpb-xjj"target="_blank">CD</a></td>
+			<td><a href="https://zoom.us/j/2904303765?pwd=YzBCcmhrYjVKcVRCbWVNd1VYaFkwQT09"target="_blank">CD</a></td>
+			<td><a href="https://zoom.us/j/2904303765?pwd=YzBCcmhrYjVKcVRCbWVNd1VYaFkwQT09"target="_blank">CD</a></td>
 			<td>B</td>
 			<td>Leisure</td>
 		</tr>
@@ -53,8 +53,8 @@
 		</tr>
 		<tr>
 			<td>Wednesday</td>
-			<td><a href="https://meet.google.com/fza-jkpb-xjj"target="_blank">CD</a></td>
-			<td><a href="https://meet.google.com/fza-jkpb-xjj"target="_blank">CD</a></td>
+			<td><a href="https://zoom.us/j/2904303765?pwd=YzBCcmhrYjVKcVRCbWVNd1VYaFkwQT09"target="_blank">CD</a></td>
+			<td><a href="https://zoom.us/j/2904303765?pwd=YzBCcmhrYjVKcVRCbWVNd1VYaFkwQT09"target="_blank">CD</a></td>
 			<td>E</td>
 			<td><a href="https://us02web.zoom.us/j/83419835850"target="_blank">DL</a></td>
       <td>Leisure</td>
@@ -120,6 +120,20 @@ function outFunc() {
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copy to clipboard";
 }
+function myFunction() {
+  var copyText = document.getElementById("myInput2");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
 </script>
       </td>
     </table>
@@ -129,26 +143,36 @@ function outFunc() {
     <tr>
       <th>S.No</th>
       <th>Subject</th>
+      <th>Zoom Code</th>
     </tr>
     <tr>
       <td id="sno"><p>1</p></td>
-      <td><a href="https://meet.google.com/ktz-ivpy-xni"target="_blank" id="oesubs">R Programming</a></td>
+      <td><a href="https://us02web.zoom.us/j/87385857254?pwd=eGljbmNFdHJXVjdvVTY0YWxtNnZuZz09"target="_blank" id="oesubs">R Programming</a></td>
+      <td><input type="text" value="adhira2013" id="myInput2" readonly>
+      </td>
     </tr>
     <tr>
       <td id="sno"><p>2</p></td>
-      <td><a href="https://meet.google.com/wnu-nnvs-vmu"target="_blank" id="oesubs">Fermented Food</a></td>
+      <td><a href="https://zoom.us/j/91759063427?pwd=Ymt6aU1iVGZjeFRoN241Y1RBL2Qxdz09"target="_blank" id="oesubs">Fermented Food</a></td>
+      <td><input type="text" value="870VAR" id="myInput2" readonly></td>
     </tr>
     <tr>
       <td id="sno"><p>3</p></td>
-      <td><a href="https://meet.google.com/vqn-pujy-jbm"target="_blank" id="oesubs">Web Programming</a></td>
+      <td><a href="https://zoom.us/j/99756793617?pwd=Q0dtenlTY3V1WGlnTW5PQ21EMU1XUT09"target="_blank" id="oesubs">Web Programming</a></td>
+      <td><input type="text" value="bala@kare" id="myInput2" readonly>
+      </td>
     </tr>
     <tr>
       <td id="sno"><p>4</p></td>
-      <td><a href="https://meet.google.com/brj-oqdb-abq"target="_blank" id="oesubs">Water Harvesting</a></td>
+      <td><a href="https://zoom.us/j/93315642637?pwd=OFRITXpSV0JjQnJMalcxVUsvQnRHdz09"target="_blank" id="oesubs">Water Harvesting</a></td>
+      <td><input type="text" value="_____" id="myInput2" readonly>
+      </td>
     </tr>
     <tr>
       <td id="sno"><p>5</p></td>
-      <td><a href="https://meet.google.com/ugq-fwok-ikx"target="_blank" id="oesubs">Bio. Waste Water</a></td>
+      <td><a href="https://zoom.us/j/4057510320?pwd=OWJBUEV1TnMrY3hiZDBCMVFaQTdDUT09"target="_blank" id="oesubs">Bio. Waste Water</a></td>
+      <td><input type="text" value="1111" id="myInput2" readonly>
+      </td>
     </tr>
   </table>
 <style>
@@ -162,7 +186,7 @@ table{
   border: 3px solid darkblue;
 }
 body {
-  background-image: url('https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?cs=srgb&dl=pexels-faik-akmd-1025469.jpg&fm=jpg');
+  background-image: url('https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
